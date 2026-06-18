@@ -1,0 +1,45 @@
+Comments checking begin......
+
+Total Comments: 13
+
+Chinese characters checking begin.....
+Chinese characters are not found in Sorting2.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 5|5 totally
+
+CodeStyle checking begin......
+
+[WARNING] Lines with incorrect indentation:
+Line 40
+Line 109
+Line 112
+
+[Codestyle Summary] You've got 3|5 totally
+
+Function realization of your code checking begin......
+ 
+
+(1) Test the correctness of InsertionSort, and testing begin......
+Test the general case (an array with the length 21) ... succeeded.
+
+(2)Test the correctness of MergeSort, and testing begin......
+Test the general case (an array with the length 21) ... succeeded.
+
+For correctness test, you've got 40|40 totally.
+
+(3)Test the time cost of insertionSort, and testing begin......
+The running time for insertionSort is 2320ms.
+
+(4)Test the time cost of mergeSort, and testing begin......
+The running time for mergeSort is 21ms.
+
+For time cost test, you've got 20|20 totally.
+
+(5)Test if you use the frame of 'Sorting2.java' offered to you in the requirement.
+The main method successfully followed the requirements.
+The method 'public static void insertionSort(int[] A)' successfully followed the requirements.
+The method 'private static void mergeSort(int[] A, int left, int right)' successfully followed the requirements.
+The method 'private static void merge(int[] A, int left, int center, int right)' successfully followed the requirements.
+
+For frame test, you've got 20|20 totally.

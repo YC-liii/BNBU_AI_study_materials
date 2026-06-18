@@ -1,0 +1,104 @@
+Comments checking begin......
+
+(1) Start to check the comments of file 'Book.java':
+
+Total Comments for Book.java: 0
+Chinese characters are not found in 'Book.java'.
+The number of valid comments in 'Book.java' is: 0.
+
+
+(2) Start to check the comments of file 'Node.java':
+
+Total Comments for Node.java: 0
+Chinese characters are not found in 'Node.java'.
+The number of valid comments in 'Node.java' is: 0.
+
+
+(3) Start to check the comments of file 'BST.java':
+
+Total Comments for BST.java: 17
+Single-line commented code:
+Line 29: if (x < root.getKey()) // try to insert in the left subtree
+Line 31: else if (x > root.getKey())// try to insert in the right subtree
+Line 69: if (x < root.getKey()) // try to delete in the left subtree
+Line 71: else if (x > root.getKey()) // try to delete in the right subtree
+Commented Blocks:
+Lines 42: /** * findNode returns a node whose key is "x" in a subtree whose root is "root" * input: root - the root of the subtree x - the key to be found output: a node * whose key is "x", or null if "x" is not found */ if (root == null) return null; if (x < root.getKey()) return findNode(root.getLeft(), x); if (x > root.getKey()) return findNode(root.getRight(), x); return root; } public void deleteNode(int x) { root = deleteNode(root, x); } public Node deleteNode(Node root, int x) { /** * deleteNode deletes the node whose key is "x" from a subtree whose root is * "root" input: root - the root of the subtree x - the key of the node to be * deleted output: the (updated) root of the subtree */
+Chinese characters are not found in 'BST.java'.
+The number of valid comments in 'BST.java' is: 12.
+
+
+(4) Start to check the comments of file 'AVLTree.java':
+
+Total Comments for AVLTree.java: 11
+Chinese characters are not found in 'AVLTree.java'.
+The number of valid comments in 'AVLTree.java' is: 11.
+
+
+(5) Start to check the comments of file 'BMS.java':
+
+Total Comments for BMS.java: 0
+Chinese characters are not found in 'BMS.java'.
+The number of valid comments in 'BMS.java' is: 0.
+
+
+[Comment Summary] You've got 3|5 totally
+
+
+CodeStyle checking begin......
+
+(1) For Book.java,
+No indentation errors are found.
+
+(2) For Node.java,
+No indentation errors are found.
+
+(3) For BST.java,
+No indentation errors are found.
+
+(4) For AVLTree.java,
+No indentation errors are found.
+
+(5) For BMS.java,
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+
+
+Function realization of your code checking begin......
+ 
+(1) Test q<ID> function with a valid book ID:
+You've got 10|10 totally.
+
+
+(2) Test q<ID> function with an invalid ID:
+You've got 5|5 totally.
+
+
+(3) Test u<ID> function with a valid book ID to increase the stock:
+You've got 10|10 totally.
+
+
+(4) Test u<ID> function with a valid book ID to decrease the stock:
+When the stock isn't enough, output of decreasing the stock of an valid book ID is correct.
+When the stock is enough, output of decreasing the stock of an valid book ID is correct.
+You've got 20|20 totally.
+
+
+(5) Test u<ID> function with an invalid ID:
+You've got 5|5 totally.
+
+(6) Test r<ID> function with a valid book ID:
+You've got 15|15 totally.
+
+
+(7) Test r<ID> function with an invalid ID:
+You've got 5|5 totally.
+
+
+(8) To check if the remove operation has changed the content in 'bookList.txt':
+You've got 5|5 totally.
+
+
+(9) Test the command 'e':
+You've got 5|5 totally.

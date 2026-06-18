@@ -1,0 +1,52 @@
+Comments checking begin......
+
+Total Comments: 23
+
+Single-line commented code:
+Line 77: //return 0;
+Line 80: //if (this.head.getData()==x){
+
+Commented Blocks:
+Lines 60-61: /* 	if (currNode.getData() == x) { return currNode; } */
+
+Chinese characters checking begin.....
+Chinese characters are not found in List.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 5|5 totally
+
+CodeStyle checking begin......
+[WARNING] Lines with incorrect indentation:
+Line 15
+Line 22
+Line 27
+Line 77
+[Codestyle Summary] You've got 3|5 totally
+
+
+Function realization of your code checking begin......
+ 
+Boundary testing begin......
+For 9 items of boundary Tests, 9 items achived, you've got 36|36 totally.
+
+
+Class methods testing begin......
+
+Start to test 'insertNode'......
+1. Insert the element to the head of a list... succeeded.
+2. Insert the element to the middle of a list... succeeded
+
+Start to test 'removeNode'......
+1. Remove element from the head of a list... succeeded.
+2. Remove element from the middle of a list... succeeded
+3. Remove element from the tail of a list... succeeded
+
+Start to test 'findNode'......
+Find the node from a list... succeeded
+
+Start to test 'displayList'......
+Display a list... succeeded
+
+
+For function realization, you've got 44|44 totally.
+{"scores": {"Codestyle": 3, "Comment": 5, "Compile": 10, "Function": 80}}

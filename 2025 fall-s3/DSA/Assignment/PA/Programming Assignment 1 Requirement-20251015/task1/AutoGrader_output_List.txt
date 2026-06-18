@@ -1,0 +1,57 @@
+Comments checking begin......
+
+Total Comments: 0
+
+Chinese characters checking begin.....
+Chinese characters are not found in List.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 0|5 totally
+
+CodeStyle checking begin......
+
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+
+
+Function realization of your code checking begin......
+ 
+
+
+(1)getLast() testing begin......
+
+(1.1)The first testcase to test getLast()......
+	The first testcase to test getLast()...... succeeded.
+
+(1.2)The second testcase to test getLast()......
+	The second testcase to test getLast()...... succeeded.
+
+(1.3)The third testcase to test getLast()......
+	The third testcase to test getLast()...... succeeded.
+
+For the test of getLast(), you've got 30|30 totally.
+
+
+(2)removeRange() testing begin......
+
+(2.1)The first testcase to test removeRange()......
+	The first testcase to test removeRange()...... succeeded.
+
+(2.2)The second testcase to test removeRange()......
+	The second testcase to test removeRange()...... succeeded.
+
+(2.3)The third testcase to test removeRange()......
+	The third testcase to test removeRange()...... succeeded.
+
+(2.4)The fourth testcase to test removeRange()......
+	The fourth testcase to test removeRange()...... succeeded.
+
+(2.5)The fifth testcase to test removeRange()......
+	The fifth testcase to test removeRange()...... succeeded.
+
+(2.6)The sixth testcase to test removeRange()......
+	The sixth testcase to test removeRange()...... succeeded.
+
+For the test of removeRange(), you've got 50|50 totally.
+{"scores": {"Codestyle": 5, "Comment": 0, "Compile": 10, "Function": 80}}

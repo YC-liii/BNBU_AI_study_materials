@@ -1,0 +1,26 @@
+Comments checking begin......
+
+Total Comments: 0
+
+Chinese characters checking begin.....
+Chinese characters are not found in T3.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 0|5 totally
+
+CodeStyle checking begin......
+No indentation errors are found.
+[Codestyle Summary] You've got 5|5 totally
+
+
+Function realization of your code checking begin......
+ 
+
+Test 'palindrome' method......
+The first testcase to test 'palindrome' ... succeeded.
+The second testcase to test 'palindrome' ... succeeded.
+The third testcase to test 'palindrome' ... succeeded.
+The fourth testcase to test 'palindrome' ... succeeded.
+
+For 'palindrome' test, you've got 80|80 totally.
+{"scores": {"Codestyle": 5, "Comment": 0, "Compile": 10, "Function": 80}}

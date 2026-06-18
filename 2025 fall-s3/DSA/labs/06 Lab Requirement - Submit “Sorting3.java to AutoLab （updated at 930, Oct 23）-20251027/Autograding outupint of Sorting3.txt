@@ -1,0 +1,43 @@
+Comments checking begin......
+
+Total Comments: 27
+Place_holder comments:
+Lines 63: /*YOUR CODE HERE*/
+Lines 77: /*YOUR CODE HERE*/
+Lines 110: /*YOUR CODE HERE*/
+
+Chinese characters checking begin.....
+Chinese characters are not found in Sorting3.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 5|5 totally
+
+CodeStyle checking begin......
+
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+
+
+Function realization of your code checking begin......
+ 
+
+(1) Test the correctness of quickSort in the base case, and testing begin......
+Test the base case (a small array with the length 6) ... succeeded.
+
+(2)Test the correctness of quickSort in the general case, and testing begin......
+Test the general case (an array with the length 21) ... succeeded.
+
+For correctness test, you've got 40|40 totally.
+
+(3)Test the time cost of quickSort, and testing begin......
+
+For time cost test, the running time for quickSort is 8 ms, you've got 16|16 totally.
+
+(4)Test if you use the frame of 'sorting3.java' offered to you in the requirement.
+The method 'private static void quickSort(int[] A, int left, int right)' successfully followed the requirements.
+The method 'private static int partition(int[] A, int left, int right)' successfully followed the requirements.
+The method 'private static void median3(int[] A, int left, int right)' successfully followed the requirements.
+The main method successfully followed the requirements.
+
+For frame test, you've got 24|24 totally.

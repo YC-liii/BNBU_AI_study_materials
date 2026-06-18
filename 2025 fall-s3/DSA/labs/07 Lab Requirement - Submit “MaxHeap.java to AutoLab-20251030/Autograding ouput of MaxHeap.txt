@@ -1,0 +1,37 @@
+Comments checking begin......
+
+Total Comments: 20
+
+Chinese characters checking begin.....
+Chinese characters are not found in MaxHeap.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 5|5 totally
+
+CodeStyle checking begin......
+
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+
+Function realization of your code checking begin......
+ 
+
+(1) Test the correctness of HeapSort, and testing begin......
+Test the general case (an array with the length 21) ... succeeded.
+
+For correctness test, you've got 36|36 totally.
+
+(2)Test the time cost of HeapSort, and testing begin......
+The running time for HeapSort is 13ms.
+
+For time cost test, you've got 20|20 totally.
+
+(3)Test if you use the frame of 'MaxHeap.java' offered to you in the requirement.
+The main method successfully followed the requirements.
+The method 'public static void heapSort(int[] A)' successfully followed the requirements.
+The method 'public static void insert(int[] A)' successfully followed the requirements.
+The method 'public int deleteMax()' successfully followed the requirements.
+
+For frame test, you've got 24|24 totally.
+{"scores": {"Codestyle": 5, "Comment": 5, "Compile": 10, "Function": 80}}

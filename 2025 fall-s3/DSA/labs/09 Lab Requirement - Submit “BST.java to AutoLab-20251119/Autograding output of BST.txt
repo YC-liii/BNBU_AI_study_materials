@@ -1,0 +1,57 @@
+
+
+Comments checking begin......
+
+Total Comments: 17
+
+Single-line commented code:
+Line 28: // if (x < root.getKey()) 
+Line 30: // else if (x > root.getKey())
+
+
+Chinese characters checking begin.....
+Chinese characters are not found in BST.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 5|5 totally
+
+CodeStyle checking begin......
+
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+nFunction realization of your code checking begin......
+ 
+
+Test 'insertNode' method......
+(1)  Inserting 10 ... succeeded.
+(2)  Inserting 5 ... succeeded.
+(3)  Inserting 15 ... succeeded.
+(4)  Inserting another 15 ... succeeded.
+(5)  Inserting 9, 13 ... succeeded.
+(6)  Inserting 2, 6, 12, 14 ... succeeded.
+
+For 'insertNode' test, you've got 34|34 totally.
+
+Test 'findNode' method......
+(1)  findNode(10) ... succeeded
+(2)  findNode(6) ... succeeded
+(3)  findNode(13) ... succeeded
+(4)  findNode(14) ... succeeded
+(5)  findNode(1) ... succeeded
+(6)  findNode(3) ... succeeded
+(7)  findNode(11) ... succeeded
+(8)  findNode(16) ... succeeded
+
+For 'findNode' test, you've got 16|16 totally.
+
+Test 'deleteNode' method......
+(1)  deleting 12 (which has no children)... succeeded.
+(2)  deleting 13 (which has a right child)... succeeded.
+(3)  deleting 9 (which has a left child)... succeeded.
+(4)  deleting 5 (which has two children)... succeeded.
+(5)  deleting 10 (which has two children)... succeeded.
+
+For 'deleteNode' test, you've got 30|30 totally.
+{"scores": {"Codestyle": 5, "Comment": 5, "Compile": 10, "Function": 80}}
+

@@ -1,0 +1,49 @@
+Comments checking begin......
+
+Total Comments: 11
+
+Chinese characters checking begin.....
+Chinese characters are not found in AVLTree.java.
+Chinese characters checking finished.
+
+[Comment Summary] You've got 3|5 totally
+
+CodeStyle checking begin......
+
+No indentation errors are found.
+
+[Codestyle Summary] You've got 5|5 totally
+
+
+Function realization of your code checking begin......
+ 
+
+Test 'insertNode' method......
+(1)  Inserting 10, 5 ... succeeded.
+(2)  Inserting 3 (case 1) ... succeeded.
+(3)  Inserting 13, 18 (case 4) ... succeeded.
+(4)  Inserting 12 (case 3) ... succeeded.
+(5)  Inserting 4 (case 2) ... succeeded.
+(6)  Inserting 11, 22, 16 ... succeeded.
+(7)  Inserting 20: (case 4) ... succeeded.
+(8)  Inserting 8 ... succeeded.
+
+For 'insertNode' test, you've got 46|46 totally.
+
+Test 'findNode' method......
+(1) Searching for 10 ... succeeded
+(2) Searching for 5 ... succeeded
+(3) Searching for 13 ... succeeded
+(4) Searching for 18 ... succeeded
+(5) Searching for 21 ... succeeded
+
+For 'findNode' test, you've got 10|10 totally.
+
+Test 'deleteNode' method......
+(1)  Deleting 16 (case 3, case 1)... succeeded.
+(2)  Deleting 3 (case 4)... succeeded.
+(3)  Deleting 5, 8 (case 4) ... succeeded.
+(4)  Deleting 20, 18 (case 2) ... succeeded.
+
+For 'deleteNode' test, you've got 24|24 totally.
+{"scores": {"Codestyle": 5, "Comment": 3, "Compile": 10, "Function": 80}}
